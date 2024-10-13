@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend do sistema de controle de estoque",
+  "main": "app.js",
+  "scripts": {
+    "app": "node app.js"
+  },
+  "author": "Jefferson Santos",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.0"
+  }
+}
