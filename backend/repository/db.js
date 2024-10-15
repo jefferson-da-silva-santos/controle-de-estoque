@@ -11,7 +11,3 @@ export const pool = new pg.Pool({
   database: process.env.DATABASE
 });
 
-console.log(process.env.PASSWORD);
-console.log(process.env.PORT);
-console.log(process.env.HOST);
-
